@@ -31,3 +31,6 @@ jobs:
 
     - name: Start application
       run: npm start
+      
+    - name: auto restart
+      run: npm auto restart if crash
